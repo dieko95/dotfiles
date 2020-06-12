@@ -248,7 +248,8 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Los Roques Background
-exec_always feh --bg-scale /home/diego/Pictures/roques1.jpg
+exec_always feh --bg-scale /home/diego/Pictures/Cayo_de_Agua_in_Los_Roques.jpg
+
 # Other Background 
 #exec_always feh --bg-scale /home/diego/Pictures/3019-city-of-bright-lights-1280×720.jpg
 
@@ -263,3 +264,7 @@ exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # In case that Netbeans-8.2 is installed
 bindsym $mod+Control+Shift+N exec netbeans-8.2/bin/netbeans
+
+# Move Workspace to the left or to the right monitor
+bindsym $mod+Control+Shift+Left move workspace to output left
+bindsym $mod+Control+Shift+Right move workspace to output right
