@@ -30,6 +30,8 @@ cd fonts    # Change to the cloned repos directory
 sudo fc-cache -fv    # Refresh the font cache, saves logging out and back in
   ```
 
+Updated Instructions: [Link](https://gist.github.com/kevin-smets/8568070)
+
 - Plugins
  ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
